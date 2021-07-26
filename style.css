@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+:root {
+  --primary-color: #2b6777;
+}
+
+body {
+  margin: 0;
+  background: white;
+}
+
+.navbar {
+  background: #cad8e4;
+  font-family: "Open Sans";
+  padding: 0em;
+  margin: 0em 0em 0em 0em;
+}
+.navbar .logo {
+  text-decoration: none;
+  font-family: "ITC Avant Garde Gothic Std Medium";
+  color: var(--primary-color);
+  font-size: 1.3em;
+  font-weight: bolder;
+  float: right;
+  margin: 0.6em 8.5em 0em 0em;
+  padding: 0em 0em 0em 0em;
+}
+.navbar nav {
+  display: none;
+}
+.navbar .mobile-menu {
+  cursor: pointer;
+  margin: 1em 0em 0.8em 0.7em;
+  padding: 0em 0em 0em 0em;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 58%;
+  left: 0;
+  top: 0;
+  background: #fcf7f7;
+  height: 100vh;
+  padding: 0em;
+}
+nav ul.primary-nav {
+  margin-top: 4em;
+  outline: #5e595a;
+  padding-left: 0.5em;
+}
+nav li {
+  list-style-type: none;
+}
+nav li a {
+  color: #5f595a;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  font-size: 0.88em;
+  text-align: left;
+  font-weight: 400;
+  padding-top: 0.3em;
+}
+nav li a:hover {
+  font-weight: bold;
+}
+
+a.log-in {
+  color: var(--primary-color);
+}
+
+a.sign-up {
+  color: var(--primary-color);
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+.primary-nav {
+  margin-top: 0em;
+  padding-top: 0em;
+}
+
+.secondary-nav {
+  padding-top: 2em;
+  border-top: 1px solid #dcdacb;
+  padding-left: 0.5em;
+  padding-top: 1.2em;
+  padding-bottom: 0em;
+}
+.secondary-nav .search-bar {
+  display: none;
+}
+
+.third-nav {
+  border-top: 1px solid #dcdacb;
+  padding-left: 0.5em;
+  padding-top: 1.2em;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+.mobile-exit {
+  float: right;
+  margin: 1em;
+  cursor: pointer;
+  width: 21px;
+  height: 21px;
+}
+
+.hero-container {
+  background: #F2F2F2;
+  text-align: center;
+}
+
+.left-column .main-heading {
+  font-family: "ITC Avant Garde Gothic Std Medium";
+  font-size: 4em;
+  font-weight: normal;
+  color: var(--primary-color);
+  padding-top: 0.7em;
+  margin-bottom: 0.3em;
+  margin-top: 0em;
+  padding-top: 1.5em;
+}
+.left-column .sub-heading {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #52ab98;
+  margin-bottom: 3em;
+}
+.left-column .Try-for-free {
+  font-family: "Open Sans";
+  font-size: 1.36em;
+  background: #52ab98;
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  border-radius: 5em;
+  margin-bottom: 10em;
+}
+
+.hero-image {
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+  margin-top: 0em;
+  padding-bottom: 0em;
+  margin-left: 0.5em;
+}
+
+.img-container {
+  padding-bottom: 3em;
+  margin-top: 3.5em;
+}
+
+.top-courses {
+  background: white;
+}
+.top-courses .left-column .top-heading {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 2.5em;
+  margin-top: 1.5em;
+}
+.top-courses .left-column a {
+  text-decoration: none;
+  font-family: "Open Sans";
+  color: #504A4B;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-right: 1.2em;
+}
+.top-courses .left-column .python {
+  padding-left: 2em;
+}
+.top-courses .left-column .next-heading {
+  padding-left: 1.2em;
+  font-family: "Open Sans";
+}
+.top-courses .left-column .paragraf {
+  font-family: "Open Sans";
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #504A4B;
+  margin-left: 2em;
+  margin-right: 3em;
+}
+.top-courses .left-column ul {
+  margin-left: 0em;
+  padding-left: 1.65em;
+}
+.top-courses .left-column .explore {
+  list-style-type: none;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.top-courses .left-column .explore .ex {
+  font-family: "Open Sans";
+  color: white;
+  font-size: 0.9em;
+  background: #52ab98;
+  padding: 0.6em 1em;
+  border-radius: 0.5em;
+  font-weight: normal;
+}
+.top-courses .top-courses-img {
+  margin-left: 1.7em;
+}
+.top-courses .text-paragraf {
+  font-family: "Open Sans";
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #000000;
+  margin-left: 1.95em;
+  margin-bottom: 0.3em;
+}
+.top-courses .second-para {
+  font-family: "Open Sans";
+  font-size: 0.79em;
+  font-weight: 400;
+  color: #5e595a;
+  margin-left: 2.3em;
+  margin-top: 0em;
+  padding-top: 0em;
+  margin-bottom: 0.9em;
+}
+.top-courses .third-para {
+  font-family: "Open Sans";
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #dd7906;
+  margin-left: 1.95em;
+  margin-bottom: 0em;
+  margin-top: 0em;
+  padding-bottom: 0em;
+}
+.top-courses .rating {
+  margin-left: 0.5em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
+.top-courses .fourth-para {
+  font-family: "Open Sans";
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #5e595a;
+  margin-left: 12em;
+  margin-top: 0em;
+  padding-top: 0em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
+.top-courses .fifth-para {
+  font-family: "Open Sans";
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #000000;
+  margin-left: 2.5em;
+  margin-top: 0em;
+  padding-top: 0em;
+}
+
+.paragraph {
+  display: none;
+}
+
+.second-container {
+  display: none;
+}
+
+.third-container {
+  display: none;
+}
+
+.fourth-container {
+  display: none;
+}
+
+.python-icon {
+  display: none;
+}
+
+.learning-section {
+  background: white;
+}
+.learning-section .learn-heading {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 2.5em;
+}
+.learning-section .learning-parg {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 1em;
+  font-weight: 600;
+  color: #504A4B;
+}
+
+.world-class {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-top: 4em;
+  margin-bottom: 2.5em;
+  margin-left: 2.5em;
+}
+
+.become-an-instructor {
+  background: white;
+}
+.become-an-instructor .instructor-heading {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 2.5em;
+  margin-bottom: 0em;
+}
+.become-an-instructor .instructor-parg {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.instructor {
+  width: 350px;
+  height: 450px;
+  margin-left: 4em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+.teaching-button {
+  font-family: "Open Sans";
+  font-size: 1.36em;
+  background: #52ab98;
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  border-radius: 0.8em;
+  margin-left: 5.3em;
+}
+
+.quote {
+  background: white;
+}
+.quote .left-column .quote-heading {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 1.8em;
+  color: white;
+  font-weight: 500;
+  margin-top: 3.5em;
+  background: #2b6777;
+  background: linear-gradient(90deg, #2a6778 0%, #245562 100%);
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  margin-bottom: 2.5em;
+}
+
+.qote {
+  display: none;
+}
+
+.category-heading {
+  background: white;
+}
+
+.top-categories {
+  background: white;
+}
+.top-categories h1 {
+  text-align: center;
+  margin-top: 0em;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 2.5em;
+  margin-bottom: 1.3em;
+}
+.top-categories ul {
+  padding-left: 1.5em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+.top-categories ul li {
+  text-align: center;
+  list-style-type: none;
+  font-family: "Open Sans";
+  font-size: 1em;
+  font-weight: 600;
+}
+.top-categories ul li p {
+  margin-top: 0.1em;
+  margin-bottom: 3em;
+  color: #504A4B;
+}
+.top-categories ul li p .health {
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
+.top-categories ul li p .engineer {
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
+.top-categories ul li img {
+  width: 200px;
+  height: 300px;
+}
+
+.design-position {
+  padding-left: 0.3em;
+  margin-left: 0em;
+  float: left;
+}
+
+.development-position {
+  padding-left: 2.3em;
+}
+
+.business-position {
+  padding-left: 0.3em;
+  margin-left: 0em;
+  float: left;
+}
+
+.it-and-software-position {
+  margin-left: 0em;
+  padding-left: 2.3em;
+}
+
+.personal-development-position {
+  padding-left: 0.2em;
+  margin-left: 0.2em;
+  float: left;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.marketing-position {
+  padding-left: 1.23em;
+  margin-left: 0.4em;
+  float: left;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.healthcare-position {
+  padding-left: 0.2em;
+  margin-left: 0em;
+  float: left;
+  margin-top: 0em;
+}
+
+.engineering-position {
+  padding-left: 2.5em;
+  margin-left: 2.3em;
+}
+
+.footer {
+  outline-color: #ffffff;
+  outline-style: inset;
+  outline-width: 1px;
+}
+.footer ul {
+  margin-top: 2em;
+  padding-left: 1.5em;
+}
+.footer li {
+  list-style-type: none;
+  margin-top: 1em;
+  margin-left: 0em;
+}
+.footer .k-f-b {
+  padding-top: 3em;
+}
+.footer .knorkat {
+  font-family: "ITC Avant Garde Gothic Std Medium";
+  font-size: 1.9em;
+  font-weight: normal;
+  color: var(--primary-color);
+  margin-bottom: 0em;
+}
+.footer .endd {
+  margin-top: 0.9em;
+  margin-bottom: 0.5;
+}
+.footer .end {
+  font-family: "Open Sans";
+  font-size: 0.8em;
+  margin-top: 0em;
+  font-weight: initial;
+  color: #312d2d;
+  font-weight: 600;
+}
+.footer a {
+  text-decoration: none;
+  font-family: "Open Sans";
+  color: var(--primary-color);
+  font-size: 0.86em;
+  font-weight: initial;
+}
+
+.procedure {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

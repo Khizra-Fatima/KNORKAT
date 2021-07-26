@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --primary-color: #2b6777;
+}
+
+body {
+    margin: 0;
+    background: white;
+}
+
+.navbar {
+    background: #cad8e4;
+    font-family: 'Open Sans';
+    padding: 0em;
+    margin: 0em 0em 0em 0em;
+
+    .logo {
+        text-decoration: none;
+        font-family: 'ITC Avant Garde Gothic Std Medium';
+        color: var(--primary-color);
+        font-size: 1.3em;
+        font-weight: bolder;
+        float: right;
+        margin: 0.6em 8.5em 0em 0em;
+        padding: 0em 0em 0em 0em;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .mobile-menu {
+        cursor: pointer;
+        margin: 1em 0em 0.8em 0.7em;
+        padding: 0em 0em 0em 0em;
+    }
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    width: 58%;
+    left: 0;
+    top: 0;
+    background: rgb(252, 247, 247);
+    height: 100vh;
+    padding: 0em;
+
+    ul.primary-nav {
+        margin-top: 4em;
+        outline: #5e595a;
+        padding-left: 0.5em;
+    }
+
+    li {
+        list-style-type: none;
+
+        a {
+            color: #5f595a;
+            text-decoration: none;
+            display: block;
+            padding: .5em;
+            font-size: 0.88em;
+            text-align: left;
+            font-weight: 400;
+            padding-top: 0.3em;
+
+            &:hover {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+a.log-in {
+    color: var(--primary-color);
+}
+
+a.sign-up {
+    color: var(--primary-color);
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+.primary-nav {
+    margin-top: 0em;
+    padding-top: 0em;
+}
+
+.secondary-nav {
+    padding-top: 2em;
+    border-top: 1px solid #dcdacb;
+    padding-left: 0.5em;
+    padding-top: 1.2em;
+    padding-bottom: 0em;
+
+    .search-bar {
+        display: none;
+    }
+}
+
+.third-nav {
+    border-top: 1px solid #dcdacb;
+    padding-left: 0.5em;
+    padding-top: 1.2em;
+}
+
+nav.menu-btn {
+    display: block;
+}
+
+.mobile-exit {
+    float: right;
+    margin: 1em;
+    cursor: pointer;
+    width: 21px;
+    height: 21px;
+}
+
+.hero-container {
+    background: #F2F2F2;
+    text-align: center;
+}
+
+.left-column {
+
+    .main-heading{
+        font-family: 'ITC Avant Garde Gothic Std Medium';
+        font-size: 4em;
+        font-weight: normal;
+        color: var(--primary-color);
+        padding-top: 0.7em;
+        margin-bottom: 0.3em;
+        margin-top: 0em;
+        padding-top: 1.5em;
+    }
+
+    .sub-heading {
+        font-family: 'Open Sans';
+        font-weight: bold;
+        font-size: 1.4em;
+        color: #52ab98;
+        margin-bottom: 3em;
+    }
+
+    .Try-for-free {
+        font-family: 'Open Sans';
+        font-size: 1.36em;
+        background: #52ab98;
+        color: white;
+        text-decoration: none;
+        padding: .6em 1.3em;
+        border-radius: 5em;
+        margin-bottom: 10em;
+    }
+}
+
+.hero-image {
+    width:440px;
+    height:440px;
+    border-radius: 50%;
+    margin-top: 0em;
+    padding-bottom: 0em;
+    margin-left: 0.5em;
+    
+}
+
+.img-container {
+    padding-bottom: 3em;
+    margin-top: 3.5em;
+}
+
+
+
+
+.top-courses {
+    background: white;
+
+    .left-column {
+        
+        .top-heading {
+            text-align: center;
+            font-family: 'Open Sans';
+            font-size: 2.5em;
+            margin-top: 1.5em;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: 'Open Sans';
+            color: #504A4B;
+            font-size: 0.9em;
+            font-weight: 700;
+            margin-right: 1.2em;
+        }
+
+        .python {
+            padding-left: 2em;
+        }
+
+        .next-heading {
+            padding-left: 1.2em;
+            font-family: 'Open Sans';
+        }
+
+        .paragraf {
+            font-family: 'Open Sans';
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #504A4B;
+            margin-left: 2em;
+            margin-right: 3em;
+        }
+
+        ul {
+            margin-left: 0em;
+            padding-left: 1.65em;
+        }
+
+        .explore {
+            list-style-type: none;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            
+            .ex {
+                font-family: 'Open Sans';
+                color: white;
+                font-size: 0.9em;
+                background: #52ab98;
+                padding: .6em 1em;
+                border-radius: 0.5em;
+                font-weight: normal;
+            }
+        }
+
+    }
+
+    .top-courses-img {
+        margin-left: 1.7em;
+    }
+
+    .text-paragraf {
+        font-family: 'Open Sans';
+        font-size: 0.9em;
+        font-weight: bolder;
+        color: #000000;
+        margin-left: 1.95em;
+        margin-bottom: 0.3em;
+    }
+
+    .second-para {
+            font-family: 'Open Sans';
+            font-size: 0.79em;
+            font-weight: 400;
+            color: #5e595a;
+            margin-left: 2.3em;
+            margin-top: 0em;
+            padding-top: 0em;
+            margin-bottom: 0.9em;
+        }
+
+    .third-para {
+            font-family: 'Open Sans';
+            font-size: 0.9em;
+            font-weight: 600;
+            color: rgb(221, 121, 6);
+            margin-left: 1.95em;
+            margin-bottom: 0em;
+            margin-top: 0em;
+            padding-bottom: 0em;
+        }
+
+        .rating {
+            margin-left: 0.5em;
+            margin-bottom: 0em;
+            padding-bottom: 0em;
+        }
+
+        .fourth-para {
+            font-family: 'Open Sans';
+            font-size: 0.75em;
+            font-weight: 600;
+            color: #5e595a;
+            margin-left: 12em;
+            margin-top: 0em;
+            padding-top: 0em;
+            margin-bottom: 0em;
+            padding-bottom: 0em;
+        }
+
+        .fifth-para {
+            font-family: 'Open Sans';
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #000000;
+            margin-left: 2.5em;
+            margin-top: 0em;
+            padding-top: 0em;
+        }
+}
+
+.paragraph {
+    display: none;
+}
+
+.second-container {
+    display: none;
+}
+
+.third-container {
+    display: none;
+}
+
+.fourth-container {
+    display: none;
+}
+
+.python-icon {
+    display: none;
+}
+
+
+
+
+.learning-section {
+    background: white;
+
+    .learn-heading {
+        text-align: center;
+        font-family: 'Open Sans';
+        font-size: 2.5em;
+    }
+
+    .learning-parg {
+        text-align: center;
+        font-family: 'Open Sans';
+        font-size: 1em;
+        font-weight: 600;
+        color: #504A4B;
+    }
+}
+
+.world-class {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-top: 4em;
+    margin-bottom: 2.5em;
+    margin-left: 2.5em;
+}
+
+
+
+
+.become-an-instructor {
+    background: white;
+    
+    .instructor-heading {
+        text-align: center;
+        font-family: 'Open Sans';
+        font-size: 2.5em;
+        margin-bottom: 0em;
+    }
+
+    .instructor-parg {
+        text-align: center;
+        font-family: 'Open Sans';
+        font-size: 1em;
+        font-weight: 600;
+    }
+}
+
+.instructor {
+    width: 350px;
+    height: 450px;
+    margin-left: 4em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.teaching-button {
+    font-family: 'Open Sans';
+    font-size: 1.36em;
+    background: #52ab98;
+    color: white;
+    text-decoration: none;
+    padding: .6em 1.3em;
+    border-radius: 0.8em;
+    margin-left: 5.3em;
+}
+
+.quote {
+    background: white;
+
+    .left-column {
+        .quote-heading {
+            text-align: center;
+            font-family: 'Open Sans';
+            font-size: 1.8em;
+            color: white;
+            font-weight: 500;
+            margin-top: 3.5em;
+            background: rgb(43,103,119);
+            background: linear-gradient(90deg, rgba(42,103,120,1) 0%, rgba(36,85,98,1) 100%);
+            padding-top: 0.6em;
+            padding-bottom: 0.6em;
+            margin-bottom: 2.5em;
+        }
+    }
+}
+
+.qote {
+    display: none;
+}
+
+.category-heading {
+    background: white;
+}
+
+
+
+
+.top-categories {
+    background: white;
+    h1 {
+        text-align: center;
+        margin-top: 0em;
+        text-align: center;
+        font-family: 'Open Sans';
+        font-size: 2.5em;
+        margin-bottom: 1.3em;
+    }
+
+    ul {
+        padding-left: 1.5em;
+        padding-bottom: 0em;
+        margin-bottom: 0em;
+
+        li {
+            text-align: center;
+            list-style-type: none;
+            font-family: 'Open Sans';
+            font-size: 1em;
+            font-weight: 600;
+
+            p {
+                margin-top: 0.1em;
+                margin-bottom: 3em;
+                color: #504A4B;
+
+                .health {
+                    margin-bottom: 0em;
+                    padding-bottom: 0em;
+                }
+
+                .engineer {
+                    margin-bottom: 0em;
+                    padding-bottom: 0em;
+                }
+            }
+
+            img {
+                width: 200px;
+                height:300px;
+            }
+        }
+    }
+}
+
+.design-position {
+    padding-left: 0.3em;
+    margin-left: 0em;
+    float: left;
+}
+
+.development-position {
+    padding-left: 2.3em;
+
+}
+
+.business-position {
+    padding-left: 0.3em;
+    margin-left: 0em;
+    float: left;
+}
+
+.it-and-software-position {
+   
+    margin-left: 0em;
+    padding-left: 2.3em;
+}
+
+.personal-development-position {
+    padding-left: 0.2em;
+    margin-left: 0.2em;
+    float: left;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.marketing-position {
+    padding-left: 1.23em;
+    margin-left: 0.4em;
+    float: left;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.healthcare-position {
+    padding-left: 0.2em;
+    margin-left: 0em;
+    float: left;
+    margin-top: 0em;
+}
+
+.engineering-position {
+    padding-left: 2.5em;
+    margin-left: 2.3em;
+}
+
+
+
+
+.footer {
+    outline-color: #ffffff;
+    outline-style: inset;
+    outline-width: 1px;
+
+    ul {
+        margin-top: 2em;
+        padding-left: 1.5em;
+    }
+
+    li {
+        list-style-type: none;
+        margin-top: 1em;
+        margin-left: 0em;
+    }
+
+    .k-f-b {
+        padding-top: 3em;
+    }
+
+    .knorkat {
+        font-family: 'ITC Avant Garde Gothic Std Medium';
+        font-size: 1.9em;
+        font-weight: normal;
+        color: var(--primary-color);
+        margin-bottom: 0em;
+    }
+
+    .endd {
+        margin-top: 0.9em;
+        margin-bottom: 0.5;
+    }
+
+    .end {
+        font-family: 'Open Sans';
+        font-size: 0.80em;
+        margin-top: 0em;
+        font-weight: initial;
+        color: rgb(49, 45, 45);
+        font-weight: 600;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: 'Open Sans';
+        color: var(--primary-color);
+        font-size: 0.86em;
+        font-weight: initial;
+    }
+}
+
+.procedure {
+    display: none;
+}
+
